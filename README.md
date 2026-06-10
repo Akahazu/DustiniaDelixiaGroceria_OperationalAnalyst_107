@@ -141,19 +141,26 @@ Menampilkan gambaran besar performa operasional:
 
 - **Avg Review Score:** Rata-rata kepuasan pelanggan berada di angka 4.05.
 
-### 2\. Analisis Akar Masalah (Root Cause)
+### 2\. Analisis Segmentasi Operasional
+- **Performa Wilayah:** Negara bagian MA (Maranhão) mencatat tingkat keterlambatan tertinggi, sementara SP (São Paulo) sebagai wilayah dengan volume pesanan terbesar menunjukkan performa yang paling stabil dan efisien.
+
+- **Skala Seller:** Seller Besar memiliki tingkat keterlambatan yang lebih tinggi dibandingkan Seller UMKM, mengindikasikan adanya hambatan operasional pada proses pemenuhan pesanan dalam skala besar.
+
+- **Karakteristik Produk:** Barang dengan kategori HEAVY memiliki durasi pengiriman rata-rata terlama (~13 hari), membuktikan bahwa berat dan dimensi produk berkontribusi signifikan terhadap risiko keterlambatan.
+
+### 3\. Analisis Akar Masalah (Root Cause)
 
 - **Komposisi Waktu:** Keterlambatan didominasi oleh waktu transit kurir (**25.3 hari**) dibandingkan proses internal seller (**5.48 hari**).
 
 - **Kontribusi Masalah:** 14.9 ribu keterlambatan disebabkan oleh masalah di kurir, sementara hanya 2.4 ribu yang disebabkan oleh seller.
 
-### 3\. Dampak Pelanggan (Customer Impact)
+### 4\. Dampak Pelanggan (Customer Impact)
 
 - **Korelasi Skor:** Pesanan yang tepat waktu memiliki skor **4.19**, sedangkan yang terlambat jatuh hingga **2.49**.
 
 - **Analisis Kata Kunci (NLP):** Keluhan utama pelanggan terpusat pada frasa "Não recebi" (Belum terima) dan "Ainda não" (Masih belum).
 
-### 4\. Analisis Efisiensi & Geografis
+### 5\. Analisis Efisiensi & Geografis
 
 - **Inefisiensi Biaya:** Negara bagian **SP (Sao Paulo)** memiliki biaya per KM tertinggi (**0.28**).
 
