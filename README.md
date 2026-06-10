@@ -1,8 +1,5 @@
 # Pipeline Analitik Operasional DustiniaDelixia Groceria
 
-![Dashboard Overview](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/dashboard/Metabase%20-%20Analisis%20Operasional%20DDG_pages-to-jpg-0001.jpg)
-![Dashboard Overview2](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/dashboard/Metabase%20-%20Analisis%20Operasional%20DDG_pages-to-jpg-0002.jpg)
-
 ## Tinjauan Umum
 
 DustiniaDelixia Groceria adalah marketplace e-commerce asal Indonesia yang sedang berkembang pesat, menghubungkan ribuan seller UMKM dengan jutaan pembeli di seluruh nusantara.
@@ -128,6 +125,10 @@ Beberapa metrik operasional yang dihasilkan meliputi:
 
 ## Struktur Dashboard
 
+![Dashboard Overview](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/dashboard/Metabase%20-%20Analisis%20Operasional%20DDG_pages-to-jpg-0001.jpg)
+![Dashboard Overview2](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/dashboard/Metabase%20-%20Analisis%20Operasional%20DDG_pages-to-jpg-0002.jpg)
+<br>
+
 ### 1\. Key Performance Indicator
 
 Menampilkan gambaran besar performa operasional:
@@ -170,8 +171,14 @@ Analisis wilayah dilakukan menggunakan GeoPandas untuk memetakan performa operas
 Visualisasi yang dibuat meliputi:
 
 - Late Delivery Rate by State
-- Average Delivery Time by State
+![laterate](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/notebook/laterateregion.png)
+<br>
+
+- Average Delivery Time by State 
+![avgdeliverytime](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/notebook/avgdeliverytime.png)
+<br>
 - Seller Origin Performance by State
+
 
 ### 2. Review Text Mining
 
@@ -180,6 +187,8 @@ Dilakukan ekstraksi kata dan frasa dari review negatif menggunakan TF-IDF.
 Tujuannya adalah mengidentifikasi pola keluhan pelanggan yang paling sering muncul pada pesanan terlambat.
 
 Hasil analisis divisualisasikan menggunakan Word Cloud dan Top Negative Bigrams.
+
+![wordcloud](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/notebook/wordcloud.png)
 
 ### 3. Correlation Analysis
 
@@ -190,8 +199,11 @@ Analisis korelasi dilakukan untuk memahami hubungan antar variabel operasional s
 - Carrier Transit Time vs Delay
 - Cost per KM vs Delivery Performance
 
+![heatmap](https://github.com/Akahazu/DustiniaDelixiaGroceria_OperationalAnalyst_107/blob/main/notebook/heatmapoperasional.png)
+<br>
 Temuan ini digunakan untuk memvalidasi akar penyebab keterlambatan yang ditemukan pada dashboard.
 
+---
 ## Temuan Utama & Insight
 
 Berdasarkan analisis, ditemukan beberapa pola krusial:
@@ -246,4 +258,6 @@ Text
 | Name           | NRP        |
 | --- | --- |
 | Muhammad Zahran Rizki Primanda            | 5025241107        |
+
+
 **Final Project MCI – Analitik Operasional DustiniaDelixia Groceria**
